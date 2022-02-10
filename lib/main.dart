@@ -7,7 +7,7 @@ void main() async{
   await EasyLocalization.ensureInitialized();
   runApp(
     EasyLocalization(
-      supportedLocales: [Locale("en","US"),Locale("ru","RU"),Locale("uz","UZ"),Locale('fr','FR')],
+      supportedLocales: [Locale("en","US"),Locale("ko","KO"),Locale("ja","JA"),Locale('fr','FR')],
       path: 'assets/translations',
       fallbackLocale: Locale("en","US"),
       child: MyApp(),
